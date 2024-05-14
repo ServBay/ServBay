@@ -10,10 +10,6 @@ ServBay is a powerful and comprehensive [localized web development environment](
 
 ## Features
 
-## Features
-
-## Features
-
 - **System Resource Panel**: Monitor and manage system resources easily.
 - **Easy-to-Manage Websites**: Just click, fill, and add – that's all it takes to set up your new web project.
 - **Complete Suite**: Includes all the tools you need such as web servers, programming languages, databases, NoSQL, DNS, and email.
@@ -29,6 +25,7 @@ ServBay is a powerful and comprehensive [localized web development environment](
 - **Rich Resources**: Provides abundant resources to help you get started quickly, get help, give feedback, or discuss.
 
 ![ServBay Hosts](/images/hosts.png)
+
 ![ServBay Hosts](/images/dns.png)
 
 ## Bundled Packages
