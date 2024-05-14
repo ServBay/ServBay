@@ -24,9 +24,9 @@ ServBay is a powerful and comprehensive [localized web development environment](
 - **Command Line Supported**: Code like a pro. Run scripts and manage databases your way.
 - **Rich Resources**: Provides abundant resources to help you get started quickly, get help, give feedback, or discuss.
 
-![ServBay Hosts](/images/hosts.png)
+![ServBay Hosts Management](/images/hosts.png)
 
-![ServBay Hosts](/images/dns.png)
+![ServBay DNS Management](/images/dns.png)
 
 ## Bundled Packages
 
