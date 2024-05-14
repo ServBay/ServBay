@@ -6,6 +6,8 @@
 
 ServBay is a powerful and comprehensive [localized web development environment](https://www.servbay.com) designed specifically for web developers. It integrates web servers, programming languages, databases, NoSQL, DNS, and email tools to simplify and accelerate your development process.
 
+![ServBay Dashboard](/images/dashboard.png)
+
 ## Features
 
 - **Easy-to-Manage Websites**: Just click, fill, and add – that's all it takes to set up your new web project.
@@ -21,14 +23,16 @@ ServBay is a powerful and comprehensive [localized web development environment](
 
 ServBay comes with a variety of essential packages to streamline your development process:
 
-- **Web Servers**: Caddy, Nginx(coming soon)
+- **Web Servers**: Caddy, Nginx (coming soon)
 - **Programming Languages**: PHP (including PHP 8.4), Node.js (including Node.js 22)
-- **Databases**: MariaDB(MySQL), PostgreSQL
+- **Databases**: MariaDB (MySQL), PostgreSQL
 - **NoSQL Databases**: Redis, Memcached
 - **DNS**: Built-in DNS server for local development
 - **Email**: Mailpit for local email testing
 - **Tunnel/Reverse Proxy**: Cloudflared, frp, Ngrok, Oray HuaShengKe
 - **Other Tools**: phpMyAdmin, Adminer, and more
+
+![ServBay Bundled Packages](/images/services.png)
 
 ## Installation
 
