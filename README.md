@@ -75,7 +75,7 @@ Join our community to exchange experiences with other developers and get the lat
 - [Twitter](https://twitter.com/ServBayDev)
 - [YouTube](https://www.youtube.com/@ServBay)
 - [Weibo](https://weibo.com/ServBay)
-
+- [WeChat](https://mp.weixin.qq.com/s/CC9-1YagpZYmUxg01UJHTw)
 ---
 
 Thank you for using ServBay! If you have any questions or suggestions, please feel free to reach out to us.
