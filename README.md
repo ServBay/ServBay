@@ -10,17 +10,20 @@ ServBay is a powerful and comprehensive [localized web development environment](
 
 ## Features
 
+- **PKI syttem & SSL certificate support**: Simple and Convenient PKI and SSL Certificate Management
+![image](https://github.com/user-attachments/assets/f13654af-93be-4aea-bcf0-d771c919cfd9)
+
+- **DNS Management**: Built-in DNS server for easy local development.
+![image](https://github.com/user-attachments/assets/3ba33f7c-55fc-4081-ba1b-bb6892b3f772)
+- **Rich Database Suite**: Support SQL databases(MySQL, MariaDB, PostgreSQL) and NoSQL databases(MongoDB, Redis, Memcached)
+- **Email Server**: Integrated email server for local email testing.
+![image](https://github.com/user-attachments/assets/3b0132f6-5f4a-432f-91ea-6a04552ed497)
+- **Support for PHP 8.4**: Offers comprehensive support from PHP 5.6 to the latest PHP 8.4 and comes pre-installed with a rich set of PHP extensions.
+- **Support for Node.js 23**: Offers comprehensive support from Node.js 12 to the latest Node.js 23
 - **System Resource Panel**: Monitor and manage system resources easily.
 - **Easy-to-Manage Websites**: Just click, fill, and add – that's all it takes to set up your new web project.
 - **Complete Suite**: Includes all the tools you need such as web servers, programming languages, databases, NoSQL, DNS, and email.
-- **Support for PHP 8.4**: Fully compatible with the latest PHP 8.4 version.
-- **Support for Node.js 22**: Fully compatible with the latest Node.js 22 version.
-- **Support for MariaDB 11.5**: Fully compatible with the latest MariaDB 11.5 version.
-- **Support for PostgreSQL 16**: Fully compatible with the latest PostgreSQL 16 version.
-- **DNS Management**: Built-in DNS server for easy local development.
 - **Reverse Proxy**: Seamlessly configure reverse proxies for your applications.
-- **Free SSL**: Obtain and manage free SSL certificates effortlessly.
-- **Email Server**: Integrated email server for local email testing.
 - **Command Line Supported**: Code like a pro. Run scripts and manage databases your way.
 - **Rich Resources**: Provides abundant resources to help you get started quickly, get help, give feedback, or discuss.
 
