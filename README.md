@@ -1,6 +1,7 @@
 # ServBay
 
-![ServBay Logo](/images/logo.png)
+![logo black@2000px白底](https://github.com/user-attachments/assets/e066f8fc-914b-4450-9ea2-17312644e135)
+
 
 ## Introduction
 
