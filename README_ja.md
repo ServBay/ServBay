@@ -4,129 +4,162 @@
 
 ![ServBay Logo](/images/logo.png)
 
-## はじめに
+## イントロダクション
 
 開発環境の管理に時間を浪費するのはもうやめましょう！
 
-ServBayは、プロのWeb開発者向けに設計された、強力で包括的な[ローカルWeb開発環境管理ツール](https://www.servbay.com)です。ServBayは、さまざまな開発言語、データベース、Webサーバー、メールサーバー、DNSサーバー、オブジェクトストレージ、リバースプロキシ、さらにはプロフェッショナルなSSL証明書管理プラットフォームをサポートしています。Web開発に必要なものはすべてここにあります。わずか3分でプロフェッショナルなローカル開発環境をセットアップできます。
+ServBayは、プロのWeb開発者向けに設計された、強力で包括的なローカルWeb開発環境管理ツールで、現在**macOSとWindows**の両方で利用可能です。ServBayは、さまざまな開発言語、データベース、Webサーバー、メールサーバー、DNSサーバー、リバースプロキシをサポートしています。さらに、Ollamaによる統合AI開発機能、MinIOによるオブジェクトストレージ、TypesenseとMeilisearchによる強力な検索機能、そして堅牢なバックアップシステムも搭載しています。Web開発に必要なすべてがここにあります。わずか3分でプロフェッショナルなローカル開発環境をセットアップできます。
 
-![ServBay ダッシュボード](/images/dashboard.png)
+![ServBay Dashboard](/images/dashboard.png)
 
 ## 機能
 
 ### マルチサイト管理
 
-[複数のWebサイトを同時に管理](https://support.servbay.com/basic-usage/websites/adding-first-website)する必要がありますか？ServBayなら簡単です。ローカルマシンで、それぞれ独自の固有の設定、ドメイン、開発環境を持つ多数のWebサイトを簡単に設定して実行できます。ServBayの直感的なインターフェースにより、複雑な設定や競合なしにプロジェクトをすばやく切り替え、構成を管理できます。
+複数のウェブサイトを同時に管理していますか？ServBayなら簡単です。ローカルマシン上で多数のウェブサイトを簡単に設定・実行でき、それぞれに固有の設定、ドメイン、開発環境を持たせることができます。ServBayの直感的なインターフェースはプロセスを簡素化し、複雑な設定や競合なしにプロジェクト間を素早く切り替え、その設定を管理することができます。
 
-![マルチサイト管理](/images/hosts.png)
+![Multi-site Management](/images/website.png)
 
 ### Webサーバー
 
-ServBayには、HTTP/3とCORSをサポートする、最も人気のある[Webサーバー](https://www.servbay.com/features/web-server)であるCaddyとNGINXが含まれています。また、カスタムドメインと[自動SSL構成](https://support.servbay.com/basic-usage/websites/using-ssl-to-secure-website)もサポートしているため、ドメインとSSL証明書を購入する必要がなく、開発中のコストを大幅に節約できます。
+ServBayには、最も人気のあるWebサーバーである**Caddy、NGINX、Apache**が含まれており、HTTP/3とCORSをサポートしています。また、カスタムドメインと自動SSL設定もサポートしており、ドメインやSSL証明書を購入する必要がなく、開発中のコストを大幅に削減します。
 
-![Webサーバー](/images/web-servers.png)
+![Web Servers](/images/web-servers.png)
 
 ### Web開発言語
 
-ServBayには、[Node.js](https://www.servbay.com/features/nodejs)（バージョン12〜23）と[PHP](https://www.servbay.com/features/php)（バージョン5.6〜8.5）が付属しており、Web開発ライフサイクル全体を通して開発者のニーズを満たします。開発者は、異なるバージョン間をシームレスに切り替えたり、異なるプロジェクトに異なるバージョンを使用したりできます。この大きな柔軟性は、開発者に強い自信を与えます。ServBayには、PythonとGolangも含まれています。
+ServBayには、**PHP** (5.6-8.5)、**Node.js** (12-24)、**Python** (2.7, 3.5-3.14)、**Go** (1.11-1.24)、**Java** (OpenJDK 7-24)、**Ruby** (2.4-3.4)、**Rust**、さらには**.NET** (2.0-10.0) & **Mono**など、膨大な数の開発言語が付属しています。開発者は異なるバージョン間をシームレスに切り替え、異なるプロジェクトに異なるバージョンを使用できます。この絶大な柔軟性は、開発者に強い自信を与えます。
 
-![Web開発言語](/images/languages.png)
+![Web Development Languages](/images/languages.png)
 
 ### データベース
 
-[データベース](https://www.servbay.com/features/database)は、Web開発に不可欠です。ServBayには、[MySQL](https://support.servbay.com/database-management/getting-started/mysql-management-and-usage)、[MariaDB](https://support.servbay.com/database-management/getting-started/mariadb-management-and-usage)、そしてますます人気が高まっている[PostgreSQL](https://support.servbay.com/database-management/getting-started/postgresql-management-and-usage)が含まれています。NoSQLデータベースもカバーされており、[Redis](https://support.servbay.com/database-management/getting-started/redis-management-and-usage)、[Memcached](https://support.servbay.com/database-management/getting-started/memcached-management-and-usage)、[MongoDB](https://www.servbay.com/features/database)は設定不要ですぐに使用できます。ServBayは、データベース管理を容易にするために、[phpMyAdmin](https://support.servbay.com/database-management/management/using-phpmyadmin-to-manage-database)と[Adminer](https://support.servbay.com/database-management/management/using-adminer-to-manage-database)も統合しています。
+データベースはWeb開発に不可欠です。ServBayには、**MySQL**、**MariaDB**、そしてますます人気が高まっている**PostgreSQL**が含まれています。NoSQLデータベースもカバーしており、**Redis**、**Memcached**、**MongoDB**が設定不要ですぐに使用できます。ServBayは、簡単なデータベース管理のために**phpMyAdmin**と**Adminer**も統合しています。
 
-![データベース](/images/databases.png)
+![Databases](/images/databases.png)
+
+### OllamaによるAI開発
+
+統合されたAI機能で開発の未来を受け入れましょう。ServBayはOllamaを組み込んでおり、Llama 3、Mistral、Gemmaなどの強力な大規模言語モデル（LLM）をローカルで実行できます。ServBayの直感的なインターフェースを通じて、ゼロレイテンシーと完全なデータプライバシーでAI駆動のアプリケーションを構築・テストできます。
+
+![AI Development with Ollama](/images/ai.png)
+
+### Typesense & Meilisearchによる強力な検索
+
+モダンで高速な検索エンジンでアプリケーションを強化しましょう。ServBayには、**Typesense**と**Meilisearch**の両方が含まれており、これらは主要なオープンソース検索ソリューションであり、ワンクリックでプロジェクトに追加できます。
+
+![Powerful Search with Typesense & Meilisearch](/images/search.png)
+
+### MinIOによるオブジェクトストレージ
+
+ServBayに含まれるようになった、高性能でS3互換のオブジェクトストレージサービスであるMinIOを使用して、非構造化データを簡単に管理できます。バックアップやログからメディアファイルやアーティファクトまで、あらゆるものを保存するのに最適で、ローカル開発のニーズに堅牢なストレージソリューションを提供します。
+
+![Object Storage with MinIO](/images/minio.png)
 
 ### ドメインとDNSサービス
 
-[ドメイン](https://www.servbay.com/features/dns-server)は、Web開発ライフサイクルにおける消耗性のリソースです。ServBayには[DNSサーバー](https://www.servbay.com/features/dns-server)が含まれているため、開発者は登録されていないドメインやTLDを使用でき、それらにSSL証明書を発行することもできます。これにより、開発者のコストを大幅に節約できるだけでなく、セキュリティも強化されます。ハッカーは存在しないドメインにアクセスできません。さらに、ServBayは、/etc/hostsファイルを便利に管理するためのグラフィカルインターフェースを提供します。
+ドメインはWeb開発ライフサイクルにおける消耗品です。ServBayにはDNSサーバーが含まれており、開発者は存在しないドメインやTLDを登録なしで使用でき、それらにSSL証明書を発行することもできます。これにより、開発者のコストを大幅に節約するだけでなく、セキュリティも向上します。ハッカーは存在しないドメインにアクセスできません。さらに、ServBayはhostsファイルを便利に管理するためのグラフィカルインターフェースを提供します。
 
-![ドメインとDNSサービス](/images/dns.png)
+![Domain and DNS Services](/images/dns.png)
 
-### PKIとSSL証明書管理
+### PKIとSSL証明書の管理
 
-ServBayは、[PKIシステム](https://www.servbay.com/features/ssl)を提供します。開発者は独自の認証局（CA）を作成し、SSL証明書を発行できます。これは、小規模の開発チームにとって特に便利です。[プライベートCA](https://support.servbay.com/basic-usage/ssl/local-ssl-root-certificate-management)を使用することで、小規模チームはデータ転送を暗号化し、開発環境内で内部信頼を確立できます。これは、Webサービスだけでなく、データベース、SMTP、その他のサービスにも適用されます。ServBayは、電子メールの暗号化用の[S/MIME証明書](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-smime-email-certificate)、[コード署名証明書](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-code-sining-certificate)、および[PDFドキュメント署名証明書](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-document-signing-certificate)もサポートしています。
+ServBayはPKIシステムを提供します。開発者は独自の認証局（CA）を作成し、SSL証明書を発行できます。これは特に小規模な開発チームに役立ちます。プライベートCAを使用することで、小規模チームはデータ転送を暗号化し、開発環境内で内部的な信頼を確立できます。これはWebサービスだけでなく、データベース、SMTP、その他のサービスにも適用されます。ServBayは、メール暗号化用のS/MIME証明書、コード署名証明書、PDF文書署名証明書もサポートしています。
 
-もちろん、ServBayは、[ACME](https://support.servbay.com/basic-usage/ssl/using-acme-to-issue-ssl-certificate)を介してLet's Encrypt、ZeroSSL、およびGoogle Trust ServicesからSSL証明書を取得し、自動的に更新することもサポートしています。
+もちろん、ServBayはACMEを介してLet's Encrypt、ZeroSSL、Google Trust ServicesからSSL証明書を取得し、自動更新することもサポートしています。
 
-![PKIとSSL証明書管理](/images/ssl-pki.png)
+![PKI and SSL Certificate Management](/images/ssl-pki.png)
 
 ### メールサーバー
 
-ローカル開発でSMTP/POP3を使用したいですか？問題ありません！ServBayには、[組み込みメールサーバー](https://www.servbay.com/features/email-server)が含まれています。PKIシステムと統合されたメールサーバーは、構成なしで[STARTTLSとSSL/TLS](https://support.servbay.com/advanced-settings/modify-configurations/modify-mailpit-settings)をサポートします。外部の[SMTPサーバー](https://www.servbay.com/features/email-server)にメールをリレーする必要がありますか？ServBayのメールサーバーはリレーをサポートしています。また、SpamAssassinもサポートしているため、送信メールごとにスコアを付け、スパムとしてマークされる可能性を減らすことができます。
+ローカル開発でSMTP/POP3を使用したいですか？問題ありません！ServBayには、ローカルでのメールテスト用に**Mailpit**を備えた内蔵メールサーバーが含まれています。PKIシステムと統合されており、メールサーバーは設定なしでSTARTTLSとSSL/TLSをサポートします。外部のSMTPサーバーにメールをリレーする必要がありますか？ServBayのメールサーバーはリレーをサポートしています。また、SpamAssassinもサポートしており、各送信メールにスコアを付け、スパムとしてマークされる可能性を減らすことができます。
 
+![Mail Server](/images/email-server.png)
 
-![メールサーバー](/images/email-server.png)
-
-![メールサーバーWebメール](/images/email-server-webmail.png)
+![Mail Server Webmail](/images/email-server-webmail.png)
 
 ### リバースプロキシ
 
-プロジェクトを一時的にユーザーと共有する必要がありますか？自宅でサーバーをホストしたいが、パブリックIPアドレスがありませんか？ServBayが対応します。Webサイトを迅速に公開するために、[ngrok](https://support.servbay.com/advanced-settings/how-to-use-ngrok)、frp、Cloudflaredをサポートしています。サードパーティサービスを信頼していませんか？ServBayは、パブリックリバースプロキシサービスも提供しており、ワンクリック共有のためにシームレスに統合されています。
+プロジェクトを一時的にユーザーと共有する必要がありますか？自宅でサーバーをホストしたいが、パブリックIPアドレスがありませんか？ServBayが対応します。**ngrok、frp、Cloudflared、Pinggy**をサポートしており、ウェブサイトを迅速に公開できます。
 
-*(近日公開)*
+![Reverse Proxy](/images/tunnel.png)
 
 ### プロジェクトレベルのランタイム環境
 
-ServBayは、プロジェクトレベルのランタイム環境設定を提供します。異なるプロジェクトに必要なPHPとNode.jsのバージョンを設定してロックできるため、プロジェクト開発の柔軟性と制御性を高めることができます。
+ServBayはプロジェクトレベルのランタイム環境設定を提供します。異なるプロジェクトに必要なPHPとNode.jsのバージョンを設定・ロックすることができ、プロジェクト開発をより柔軟かつ制御可能にします。
 
-![プロジェクトレベルのランタイム環境](/images/project-level-runtime.png)
+![Project-Level Runtime Environments](/images/project-level-runtime.png)
 
-### クリーンで簡単なバックアップ
+### 強力なバックアップと復元
 
-ServBayはポータブルインストールであるため、システムファイルが乱雑になるHomebrewなどのツールとは異なり、システムに痕跡を残しません。Time Machineまたはrsyncを使用してデータを簡単にバックアップできるため、データセキュリティが確保されます。
+データのセキュリティと環境の回復は非常に重要です。ServBayは、安心を提供するための包括的なバックアップと復元システムを備えています。
+*   **ワンクリック＆スケジュールバックアップ**：データベース、ウェブサイトファイル、サービス設定、SSL証明書の自動、スケジュールバックアップを設定したり、手動でバックアップをトリガーしたりできます。
+*   **簡単な復元と移行**：問題が発生した場合に環境を以前の状態に迅速に復元したり、バックアップを使用してServBayのセットアップ全体を新しいマシンに簡単に移行したりできます。
 
-![クリーンで簡単なバックアップ](/images/easy-to-backup.png)
+![Clean and Easy to Back Up](/images/easy-to-backup.png)
 
-## バンドルされたパッケージ
+![Clean and Easy to Back Up](/images/easy-to-backup-2.png)
 
-ServBayには、開発プロセスを合理化するためのさまざまな必須パッケージが付属しています。
+## バンドルパッケージ
 
-- **Webサーバー**: Caddy (2.8)、Nginx (1.27)、Apache *(2.4、近日公開)*
-- **プログラミング言語**: PHP (PHP 5.6からPHP 8.5-Devまで)、Node.js (Node.js 12からNode.js 23まで)、Python *(近日公開)*、Golang *(近日公開)*
-- **SQLデータベース**: MySQL (MySQL 5.1からMySQL 9.1まで)、MariaDB (MariaDB 10.4からMariaDB 11.8まで)、PostgreSQL (PostgreSQL 10からPostgreSQL 17まで)
-- **NoSQLデータベース**: Redis (7.2)、Memcached (1.6)、MongoDB (MongoDB 5.0からMongoDB 8.0まで) & MongoSH 2
-- **DNS**: ローカル開発用の組み込みDNSサーバー (dnsmasq 2.9)
-- **電子メール**: ローカル電子メールテスト用のMailpit
-- **トンネル/リバースプロキシ**: Cloudflared、frp、Ngrok、Oray 花生殼
-- **その他のツール**: phpMyAdmin、Adminerなど
+ServBayには、開発プロセスを効率化するためのさまざまな必須パッケージが付属しています。
 
-![ServBay バンドルされたパッケージ](/images/services.png)
+-   **Webサーバー**：Caddy, Nginx, Apache
+-   **プログラミング言語**：PHP (5.6から8.5-Alpha), Node.js (12から24), Python (2.7, 3.5-3.14), Golang (1.11-1.24), Java (OpenJDK 7-24), .NET (2.0-10.0), Mono (6.14), Ruby (2.4-3.4), Rust
+-   **SQLデータベース**：MySQL (5.1から9.3), MariaDB (10.4から12.0), PostgreSQL (10から17)
+-   **NoSQLデータベース**：Redis, Memcached, MongoDB (5.0から8.0) & MongoSH 2
+-   **AI / LLM**：Ollama
+-   **検索エンジン**：Typesense, Meilisearch
+-   **オブジェクトストレージ**：MinIO
+-   **DNS**：内蔵DNSサーバー (dnsmasq)
+-   **メール**：ローカルメールテスト用のMailpit
+-   **トンネル/リバースプロキシ**：Cloudflared, frp, Ngrok, Pinggy
+-   **その他のツール**：phpMyAdmin, Adminer, Composer, など
+
+![ServBay Bundled Packages](/images/services.png)
 
 ## インストール
 
-ServBayをインストールするには、次の手順に従います。
+ServBayはmacOSとWindowsの両方で利用できます。
 
-1. [公式サイト](https://www.servbay.com)からServBayの最新バージョンをダウンロードします。
-2. インストーラーを開き、プロンプトに従ってインストールを完了します。
-3. ServBayを起動し、初期設定ウィザードに従って構成します。
+### macOS
 
-## ドキュメント
+1.  [公式サイト](https://www.servbay.com/download)からmacOS用のServBayの最新バージョンをダウンロードします。
+2.  インストーラーを開き、プロンプトに従ってインストールを完了します。
+3.  ServBayを起動し、初期設定ウィザードに従って設定します。
 
-詳細なドキュメントと使用ガイドについては、[ServBayドキュメントセンター](https://support.servbay.com)をご覧ください。
+### Windows
+
+1.  [公式ダウンロードページ](https://www.servbay.com/download)または直接[Windowsリリースリポジトリ](https://github.com/ServBay/ServBay-Windows-Release)からWindows用のServBayの最新バージョンをダウンロードします。
+2.  インストーラーを実行し、画面の指示に従います。
+3.  ServBayを起動して、ローカル開発環境の設定を開始します。
+
+## ドキュメンテーション
+
+詳細なドキュメンテーションと使用ガイドについては、[ServBayドキュメンテーションセンター](https://support.servbay.com)をご覧ください。
 
 ## サポート
 
-ServBayの使用中に問題が発生した場合は、次のチャネルからサポートを受けることができます。
+ServBayの使用中に問題が発生した場合は、以下のチャネルを通じてサポートを受けることができます。
 
-- [ヘルプセンター](https://support.servbay.com)
-- [Discordコミュニティ](https://talk.servbay.com)
-- [Telegramコミュニティ](https://telegram.servbay.dev)
-- [WhatsAppコミュニティ](https://wa.servbay.dev)
-- [WeChatコミュニティ](https://wechat-group.servbay.dev)
-- [問題を提出する](https://github.com/ServBay/ServBay/issues)
+-   [ヘルプセンター](https://support.servbay.com)
+-   [Discordコミュニティ](https://talk.servbay.com)
+-   [Telegramコミュニティ](https://telegram.servbay.dev)
+-   [WhatsAppコミュニティ](https://wa.servbay.dev)
+-   [WeChatコミュニティ](https://wechat-group.servbay.dev)
+-   [問題を報告](https://github.com/ServBay/ServBay/issues)
 
 ## コミュニティ
 
-コミュニティに参加して、他の開発者と経験を交換し、最新のアップデートを入手してください。
+私たちのコミュニティに参加して、他の開発者と経験を交換し、最新のアップデートを入手してください。
 
-- [ServBayブログ](https://blog.servbay.com)
-- [Facebook](https://www.facebook.com/ServBay.Dev)
-- [Twitter](https://twitter.com/ServBayDev)
-- [YouTube](https://www.youtube.com/@ServBay)
-- [微博](https://weibo.com/ServBay)
-- [WeChat](https://mp.weixin.qq.com/s/CC9-1YagpZYmUxg01UJHTw)
+-   [ServBayブログ](https://blog.servbay.com)
+-   [Facebook](https://www.facebook.com/ServBay.Dev)
+-   [Twitter (X)](https://twitter.com/ServBayDev)
+-   [YouTube](https://www.youtube.com/@ServBay)
+-   [Weibo](https://weibo.com/ServBay)
+-   [WeChat](https://mp.weixin.qq.com/s/CC9-1YagpZYmUxg01UJHTw)
+
 ---
 
 ServBayをご利用いただきありがとうございます！ご質問やご提案がございましたら、お気軽にお問い合わせください。

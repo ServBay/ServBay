@@ -2,134 +2,164 @@
 
 [English](/README.md) | [简体中文](/README_zh-CN.md) | [繁體中文](/README_zh-TW.md) | [Español](/README_es.md) | [العربية](/README_ar.md) | [Português](/README_pt.md) | [Русский](/README_ru.md) | [日本語](/README_ja.md) | [Deutsch](/README_de.md) | [Français](/README_fr.md) | [Tiếng Việt](/README_vi.md) | [Türkçe](/README_tr.md) | [Italiano](/README_it.md)
 
-![Logo ServBay](/images/logo.png)
+![ServBay Logo](/images/logo.png)
 
 ## Giới thiệu
 
-Ngừng lãng phí thời gian quản lý môi trường phát triển của bạn!
+Đừng lãng phí thời gian vào việc quản lý môi trường phát triển của bạn nữa!
 
-ServBay là một [công cụ quản lý môi trường phát triển web cục bộ](https://www.servbay.com) mạnh mẽ và toàn diện được thiết kế cho các nhà phát triển web chuyên nghiệp. ServBay bao gồm hỗ trợ cho nhiều ngôn ngữ phát triển, cơ sở dữ liệu, máy chủ web, máy chủ thư, máy chủ DNS, bộ nhớ đối tượng, proxy ngược và thậm chí cả một nền tảng quản lý chứng chỉ SSL chuyên nghiệp. Tất cả mọi thứ bạn cần cho phát triển web đều có ở đây. Thiết lập môi trường phát triển cục bộ chuyên nghiệp chỉ trong 3 phút.
+ServBay là một công cụ quản lý môi trường phát triển web cục bộ mạnh mẽ và toàn diện, được thiết kế cho các nhà phát triển web chuyên nghiệp, hiện đã có sẵn cho cả **macOS và Windows**. ServBay bao gồm hỗ trợ cho nhiều ngôn ngữ phát triển, cơ sở dữ liệu, máy chủ web, máy chủ mail, máy chủ DNS và proxy ngược. Hiện tại, nó còn tích hợp các khả năng phát triển AI với Ollama, lưu trữ đối tượng với MinIO, tìm kiếm mạnh mẽ với Typesense và Meilisearch, và một hệ thống sao lưu mạnh mẽ. Mọi thứ bạn cần cho việc phát triển web đều có ở đây. Thiết lập một môi trường phát triển cục bộ chuyên nghiệp chỉ trong 3 phút.
 
-![Bảng điều khiển ServBay](/images/dashboard.png)
+![ServBay Dashboard](/images/dashboard.png)
 
 ## Tính năng
 
-### Quản lý nhiều trang web
+### Quản lý đa trang web
 
-[Quản lý nhiều trang web](https://support.servbay.com/basic-usage/websites/adding-first-website) cùng lúc? ServBay giúp việc này trở nên dễ dàng.  Dễ dàng cấu hình và chạy nhiều trang web trên máy cục bộ của bạn, mỗi trang web có cài đặt, miền và môi trường phát triển riêng. Giao diện trực quan của ServBay đơn giản hóa quy trình, cho phép bạn nhanh chóng chuyển đổi giữa các dự án và quản lý cấu hình của chúng mà không cần thiết lập phức tạp hoặc xung đột.
+Quản lý nhiều trang web cùng một lúc? ServBay giúp việc này trở nên dễ dàng. Dễ dàng cấu hình và chạy nhiều trang web trên máy cục bộ của bạn, mỗi trang có cài đặt, tên miền và môi trường phát triển riêng. Giao diện trực quan của ServBay đơn giản hóa quy trình, cho phép bạn nhanh chóng chuyển đổi giữa các dự án và quản lý cấu hình của chúng mà không cần thiết lập phức tạp hay xung đột.
 
-![Quản lý nhiều trang web](/images/hosts.png)
+![Multi-site Management](/images/website.png)
 
-### Máy chủ web
+### Máy chủ Web
 
-ServBay bao gồm các [máy chủ web](https://www.servbay.com/features/web-server) phổ biến nhất, Caddy và NGINX, với hỗ trợ HTTP/3 và CORS.  Nó cũng hỗ trợ các miền tùy chỉnh và [cấu hình SSL tự động](https://support.servbay.com/basic-usage/websites/using-ssl-to-secure-website), loại bỏ nhu cầu mua miền và chứng chỉ SSL, tiết kiệm chi phí đáng kể trong quá trình phát triển.
+ServBay bao gồm các máy chủ web phổ biến nhất—**Caddy, NGINX, và Apache**—với hỗ trợ HTTP/3 và CORS. Nó cũng hỗ trợ tên miền tùy chỉnh và cấu hình SSL tự động, loại bỏ nhu cầu mua tên miền và chứng chỉ SSL, tiết kiệm chi phí đáng kể trong quá trình phát triển.
 
-![Máy chủ web](/images/web-servers.png)
+![Web Servers](/images/web-servers.png)
 
-### Ngôn ngữ phát triển web
+### Ngôn ngữ phát triển Web
 
-ServBay đi kèm với [Node.js](https://www.servbay.com/features/nodejs) (phiên bản 12-23) và [PHP](https://www.servbay.com/features/php) (phiên bản 5.6-8.5), đáp ứng nhu cầu của các nhà phát triển trong suốt vòng đời phát triển web. Các nhà phát triển có thể chuyển đổi liền mạch giữa các phiên bản khác nhau và sử dụng các phiên bản khác nhau cho các dự án khác nhau. Sự linh hoạt to lớn này mang lại cho các nhà phát triển sự tự tin mạnh mẽ.  ServBay cũng bao gồm Python và Golang.
+ServBay đi kèm với một loạt các ngôn ngữ phát triển, bao gồm **PHP** (5.6-8.5), **Node.js** (12-24), **Python** (2.7, 3.5-3.14), **Go** (1.11-1.24), **Java** (OpenJDK 7-24), **Ruby** (2.4-3.4), **Rust**, và thậm chí cả **.NET** (2.0-10.0) & **Mono**. Các nhà phát triển có thể chuyển đổi liền mạch giữa các phiên bản khác nhau và sử dụng các phiên bản khác nhau cho các dự án khác nhau. Sự linh hoạt to lớn này mang lại cho các nhà phát triển sự tự tin mạnh mẽ.
 
-![Ngôn ngữ phát triển web](/images/languages.png)
+![Web Development Languages](/images/languages.png)
 
 ### Cơ sở dữ liệu
 
-[Cơ sở dữ liệu](https://www.servbay.com/features/database) là điều cần thiết cho phát triển web. ServBay bao gồm [MySQL](https://support.servbay.com/database-management/getting-started/mysql-management-and-usage), [MariaDB](https://support.servbay.com/database-management/getting-started/mariadb-management-and-usage) và [PostgreSQL](https://support.servbay.com/database-management/getting-started/postgresql-management-and-usage) ngày càng phổ biến.  Cơ sở dữ liệu NoSQL cũng được hỗ trợ, với [Redis](https://support.servbay.com/database-management/getting-started/redis-management-and-usage), [Memcached](https://support.servbay.com/database-management/getting-started/memcached-management-and-usage) và [MongoDB](https://www.servbay.com/features/database) sẵn sàng để sử dụng ngay lập tức, không yêu cầu cấu hình.  ServBay cũng tích hợp [phpMyAdmin](https://support.servbay.com/database-management/management/using-phpmyadmin-to-manage-database) và [Adminer](https://support.servbay.com/database-management/management/using-adminer-to-manage-database) để quản lý cơ sở dữ liệu dễ dàng.
+Cơ sở dữ liệu là yếu tố cần thiết cho việc phát triển web. ServBay bao gồm **MySQL**, **MariaDB**, và **PostgreSQL** ngày càng phổ biến. Các cơ sở dữ liệu NoSQL cũng được hỗ trợ, với **Redis**, **Memcached**, và **MongoDB** sẵn sàng sử dụng ngay lập tức mà không cần cấu hình. ServBay cũng tích hợp **phpMyAdmin** và **Adminer** để quản lý cơ sở dữ liệu dễ dàng.
 
-![Cơ sở dữ liệu](/images/databases.png)
+![Databases](/images/databases.png)
 
-### Dịch vụ miền và DNS
+### Phát triển AI với Ollama
 
-[Tên miền](https://www.servbay.com/features/dns-server) là một tài nguyên tiêu hao trong vòng đời phát triển web. ServBay bao gồm một [máy chủ DNS](https://www.servbay.com/features/dns-server), cho phép các nhà phát triển sử dụng các miền và TLD không tồn tại mà không cần đăng ký và thậm chí cấp chứng chỉ SSL cho chúng. Điều này không chỉ tiết kiệm chi phí đáng kể cho các nhà phát triển mà còn tăng cường bảo mật - tin tặc không thể truy cập vào một miền không tồn tại. Ngoài ra, ServBay cung cấp giao diện đồ họa để quản lý tệp /etc/hosts của bạn một cách thuận tiện.
+Nắm bắt tương lai của phát triển với các khả năng AI tích hợp. ServBay tích hợp Ollama, cho phép bạn chạy các Mô hình Ngôn ngữ Lớn (LLM) mạnh mẽ như Llama 3, Mistral và Gemma ngay trên máy cục bộ. Xây dựng và thử nghiệm các ứng dụng dựa trên AI với độ trễ bằng không và bảo mật dữ liệu hoàn toàn, tất cả đều được quản lý thông qua giao diện trực quan của ServBay.
 
-![Dịch vụ miền và DNS](/images/dns.png)
+![AI Development with Ollama](/images/ai.png)
 
-### Quản lý chứng chỉ PKI và SSL
+### Tìm kiếm mạnh mẽ với Typesense & Meilisearch
 
-ServBay cung cấp một [hệ thống PKI](https://www.servbay.com/features/ssl). Các nhà phát triển có thể tạo Cơ quan cấp chứng chỉ (CA) của riêng họ và cấp chứng chỉ SSL - đặc biệt hữu ích cho các nhóm phát triển nhỏ.  Việc sử dụng [CA riêng](https://support.servbay.com/basic-usage/ssl/local-ssl-root-certificate-management) cho phép các nhóm nhỏ mã hóa việc truyền dữ liệu và thiết lập niềm tin nội bộ trong môi trường phát triển của họ. Điều này không chỉ áp dụng cho các dịch vụ web mà còn cho cơ sở dữ liệu, SMTP và các dịch vụ khác. ServBay thậm chí còn hỗ trợ [chứng chỉ S/MIME](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-smime-email-certificate) để mã hóa email, [chứng chỉ ký mã](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-code-sining-certificate) và [chứng chỉ ký tài liệu PDF](https://support.servbay.com/basic-usage/ssl/how-to-apply-for-and-use-document-signing-certificate).
+Tăng cường sức mạnh cho ứng dụng của bạn với các công cụ tìm kiếm hiện đại, nhanh chóng. ServBay bao gồm cả **Typesense** và **Meilisearch**, hai trong số các giải pháp tìm kiếm mã nguồn mở hàng đầu mà bạn có thể thêm vào dự án của mình chỉ bằng một cú nhấp chuột.
 
-Tất nhiên, ServBay cũng hỗ trợ việc lấy và tự động gia hạn chứng chỉ SSL từ Let's Encrypt, ZeroSSL và Google Trust Services thông qua [ACME](https://support.servbay.com/basic-usage/ssl/using-acme-to-issue-ssl-certificate).
+![Powerful Search with Typesense & Meilisearch](/images/search.png)
 
-![Quản lý chứng chỉ PKI và SSL](/images/ssl-pki.png)
+### Lưu trữ đối tượng với MinIO
 
-### Máy chủ thư
+Quản lý dữ liệu phi cấu trúc một cách dễ dàng bằng MinIO, một dịch vụ lưu trữ đối tượng hiệu suất cao, tương thích S3 hiện đã được tích hợp trong ServBay. Nó hoàn hảo để lưu trữ mọi thứ từ bản sao lưu và nhật ký đến các tệp phương tiện và tạo phẩm, cung cấp một giải pháp lưu trữ mạnh mẽ cho nhu cầu phát triển cục bộ của bạn.
 
-Bạn muốn sử dụng SMTP/POP3 trong quá trình phát triển cục bộ của mình? Không vấn đề gì! ServBay bao gồm một [máy chủ thư tích hợp](https://www.servbay.com/features/email-server).  Được tích hợp với hệ thống PKI, máy chủ thư hỗ trợ [STARTTLS và SSL/TLS](https://support.servbay.com/advanced-settings/modify-configurations/modify-mailpit-settings) mà không cần cấu hình.  Cần chuyển tiếp thư đến [máy chủ SMTP](https://www.servbay.com/features/email-server) bên ngoài?  Máy chủ thư của ServBay hỗ trợ chuyển tiếp.  Chúng tôi cũng hỗ trợ SpamAssassin, cho phép bạn chấm điểm từng email gửi đi và giảm khả năng email bị đánh dấu là spam.
+![Object Storage with MinIO](/images/minio.png)
 
+### Dịch vụ tên miền và DNS
 
-![Máy chủ thư](/images/email-server.png)
+Tên miền là một tài nguyên tiêu hao trong vòng đời phát triển web. ServBay bao gồm một máy chủ DNS, cho phép các nhà phát triển sử dụng các tên miền và TLD không tồn tại mà không cần đăng ký, và thậm chí cấp chứng chỉ SSL cho chúng. Điều này không chỉ giúp các nhà phát triển tiết kiệm chi phí đáng kể mà còn tăng cường bảo mật—tin tặc không thể truy cập vào một tên miền không tồn tại. Ngoài ra, ServBay cung cấp một giao diện đồ họa để quản lý tệp hosts của bạn một cách thuận tiện.
 
-![Webmail máy chủ thư](/images/email-server-webmail.png)
+![Domain and DNS Services](/images/dns.png)
+
+### Quản lý PKI và Chứng chỉ SSL
+
+ServBay cung cấp một hệ thống PKI. Các nhà phát triển có thể tạo Cơ quan Chứng thực (CA) của riêng mình và cấp chứng chỉ SSL—điều này đặc biệt hữu ích cho các nhóm phát triển nhỏ. Sử dụng CA riêng, các nhóm nhỏ có thể mã hóa việc truyền dữ liệu và thiết lập sự tin cậy nội bộ trong môi trường phát triển của họ. Điều này không chỉ áp dụng cho các dịch vụ web, mà còn cho cơ sở dữ liệu, SMTP và các dịch vụ khác. ServBay thậm chí còn hỗ trợ chứng chỉ S/MIME để mã hóa email, chứng chỉ ký mã và chứng chỉ ký tài liệu PDF.
+
+Tất nhiên, ServBay cũng hỗ trợ lấy và tự động gia hạn chứng chỉ SSL từ Let's Encrypt, ZeroSSL và Google Trust Services thông qua ACME.
+
+![PKI and SSL Certificate Management](/images/ssl-pki.png)
+
+### Máy chủ Mail
+
+Bạn muốn sử dụng SMTP/POP3 trong quá trình phát triển cục bộ? Không vấn đề gì! ServBay bao gồm một máy chủ mail tích hợp với **Mailpit** để kiểm tra email cục bộ. Tích hợp với hệ thống PKI, máy chủ mail hỗ trợ STARTTLS và SSL/TLS mà không cần cấu hình. Cần chuyển tiếp mail đến một máy chủ SMTP bên ngoài? Máy chủ mail của ServBay hỗ trợ chuyển tiếp. Chúng tôi cũng hỗ trợ SpamAssassin, cho phép bạn chấm điểm mỗi email gửi đi và giảm khả năng nó bị đánh dấu là thư rác.
+
+![Mail Server](/images/email-server.png)
+
+![Mail Server Webmail](/images/email-server-webmail.png)
 
 ### Proxy ngược
 
-Bạn cần chia sẻ dự án của mình tạm thời với người dùng? Bạn muốn lưu trữ máy chủ tại nhà nhưng không có địa chỉ IP công cộng? ServBay sẽ hỗ trợ bạn.  Nó hỗ trợ [ngrok](https://support.servbay.com/advanced-settings/how-to-use-ngrok), frp và Cloudflared để nhanh chóng chia sẻ trang web của bạn công khai.  Bạn không tin tưởng các dịch vụ của bên thứ ba? ServBay cũng cung cấp dịch vụ proxy ngược công cộng, được tích hợp liền mạch để chia sẻ chỉ bằng một cú nhấp chuột.
+Cần chia sẻ tạm thời dự án của bạn với người dùng? Muốn lưu trữ một máy chủ tại nhà nhưng không có địa chỉ IP công cộng? ServBay đã có giải pháp cho bạn. Nó hỗ trợ **ngrok, frp, Cloudflared, và Pinggy** để nhanh chóng chia sẻ trang web của bạn công khai.
 
+![Reverse Proxy](/images/tunnel.png)
 
-*(Sắp ra mắt)*
+### Môi trường chạy cấp dự án
 
-### Môi trường chạy ở cấp độ dự án
+ServBay cung cấp cấu hình môi trường chạy cấp dự án. Bạn có thể cấu hình và khóa các phiên bản PHP và Node.js cần thiết cho các dự án khác nhau, giúp việc phát triển dự án của bạn linh hoạt và dễ kiểm soát hơn.
 
-ServBay cung cấp cấu hình môi trường chạy ở cấp độ dự án. Bạn có thể cấu hình và khóa các phiên bản PHP và Node.js bắt buộc cho các dự án khác nhau, giúp việc phát triển dự án của bạn linh hoạt và có thể kiểm soát hơn.
+![Project-Level Runtime Environments](/images/project-level-runtime.png)
 
-![Môi trường chạy ở cấp độ dự án](/images/project-level-runtime.png)
+### Sao lưu & Khôi phục mạnh mẽ
 
-### Sạch sẽ và dễ sao lưu
+An toàn dữ liệu và phục hồi môi trường là rất quan trọng. ServBay có một hệ thống sao lưu và khôi phục toàn diện để bạn yên tâm.
+*   **Sao lưu một cú nhấp chuột & theo lịch trình**: Cấu hình sao lưu tự động, theo lịch trình, hoặc kích hoạt sao lưu thủ công cho cơ sở dữ liệu, tệp trang web, cấu hình dịch vụ và chứng chỉ SSL của bạn.
+*   **Khôi phục & Di chuyển dễ dàng**: Nhanh chóng khôi phục môi trường của bạn về trạng thái trước đó trong trường hợp có sự cố, hoặc sử dụng các bản sao lưu để dễ dàng di chuyển toàn bộ thiết lập ServBay của bạn sang một máy mới.
 
-ServBay là một bản cài đặt di động, không để lại dư lượng trên hệ thống của bạn, không giống như các công cụ như Homebrew có thể làm lộn xộn các tệp hệ thống của bạn.  Bạn có thể dễ dàng sao lưu dữ liệu của mình bằng Time Machine hoặc rsync, đảm bảo an toàn dữ liệu.
+![Clean and Easy to Back Up](/images/easy-to-backup.png)
 
-![Sạch sẽ và dễ sao lưu](/images/easy-to-backup.png)
+![Clean and Easy to Back Up](/images/easy-to-backup-2.png)
 
-## Các gói đi kèm
+## Gói đi kèm
 
-ServBay đi kèm với nhiều gói cần thiết để sắp xếp hợp lý quy trình phát triển của bạn:
+ServBay đi kèm với nhiều gói cần thiết để hợp lý hóa quy trình phát triển của bạn:
 
-- **Máy chủ web**: Caddy (2.8), Nginx (1.27) và Apache *(2.4, sắp ra mắt)*
-- **Ngôn ngữ lập trình**: PHP (Từ PHP 5.6 đến PHP 8.5-Dev), Node.js (Từ Node.js 12 đến Node.js 23), Python *(sắp ra mắt)*, Golang *(sắp ra mắt)*
-- **Cơ sở dữ liệu SQL**: MySQL (Từ MySQL 5.1 đến MySQL 9.1), MariaDB (Từ MariaDB 10.4 đến MariaDB 11.8), PostgreSQL (Từ PostgreSQL 10 đến PostgreSQL 17)
-- **Cơ sở dữ liệu NoSQL**: Redis (7.2), Memcached (1.6), MongoDB (Từ MongoDB 5.0 đến MongoDB 8.0) & MongoSH 2
-- **DNS**: Máy chủ DNS tích hợp để phát triển cục bộ (dnsmasq 2.9)
-- **Email**: Mailpit để kiểm tra email cục bộ
-- **Đường hầm/Proxy ngược**: Cloudflared, frp, Ngrok, Oray HuaShengKe
-- **Các công cụ khác**: phpMyAdmin, Adminer, v.v.
+-   **Máy chủ Web**: Caddy, Nginx, Apache
+-   **Ngôn ngữ lập trình**: PHP (5.6 đến 8.5-Alpha), Node.js (12 đến 24), Python (2.7, 3.5-3.14), Golang (1.11-1.24), Java (OpenJDK 7-24), .NET (2.0-10.0), Mono (6.14), Ruby (2.4-3.4), Rust
+-   **Cơ sở dữ liệu SQL**: MySQL (5.1 đến 9.3), MariaDB (10.4 đến 12.0), PostgreSQL (10 đến 17)
+-   **Cơ sở dữ liệu NoSQL**: Redis, Memcached, MongoDB (5.0 đến 8.0) & MongoSH 2
+-   **AI / LLM**: Ollama
+-   **Công cụ tìm kiếm**: Typesense, Meilisearch
+-   **Lưu trữ đối tượng**: MinIO
+-   **DNS**: Máy chủ DNS tích hợp (dnsmasq)
+-   **Email**: Mailpit để kiểm tra email cục bộ
+-   **Tunnel/Proxy ngược**: Cloudflared, frp, Ngrok, Pinggy
+-   **Các công cụ khác**: phpMyAdmin, Adminer, Composer, và nhiều hơn nữa
 
-![Các gói đi kèm ServBay](/images/services.png)
+![ServBay Bundled Packages](/images/services.png)
 
 ## Cài đặt
 
-Làm theo các bước sau để cài đặt ServBay:
+ServBay có sẵn cho cả macOS và Windows.
 
-1. Tải xuống phiên bản ServBay mới nhất từ [trang web chính thức](https://www.servbay.com).
-2. Mở trình cài đặt và làm theo lời nhắc để hoàn tất cài đặt.
-3. Khởi chạy ServBay và làm theo trình hướng dẫn thiết lập ban đầu để cấu hình nó.
+### macOS
 
+1.  Tải xuống phiên bản mới nhất của ServBay cho macOS từ [trang web chính thức](https://www.servbay.com/download).
+2.  Mở trình cài đặt và làm theo hướng dẫn để hoàn tất quá trình cài đặt.
+3.  Khởi chạy ServBay và làm theo trình hướng dẫn thiết lập ban đầu để cấu hình nó.
+
+### Windows
+
+1.  Tải xuống phiên bản mới nhất của ServBay cho Windows từ [trang tải xuống chính thức](https://www.servbay.com/download) hoặc trực tiếp từ [kho lưu trữ phiên bản Windows](https://github.com/ServBay/ServBay-Windows-Release).
+2.  Chạy trình cài đặt và làm theo hướng dẫn trên màn hình.
+3.  Khởi chạy ServBay để bắt đầu cấu hình môi trường phát triển cục bộ của bạn.
 
 ## Tài liệu
 
-Để biết tài liệu chi tiết và hướng dẫn sử dụng, hãy truy cập [Trung tâm tài liệu ServBay](https://support.servbay.com).
+Để có tài liệu chi tiết và hướng dẫn sử dụng, hãy truy cập [Trung tâm Tài liệu ServBay](https://support.servbay.com).
 
 ## Hỗ trợ
 
-Nếu bạn gặp bất kỳ sự cố nào khi sử dụng ServBay, bạn có thể nhận hỗ trợ thông qua các kênh sau:
+Nếu bạn gặp bất kỳ vấn đề nào khi sử dụng ServBay, bạn có thể nhận hỗ trợ qua các kênh sau:
 
-- [Trung tâm trợ giúp](https://support.servbay.com)
-- [Cộng đồng Discord](https://talk.servbay.com)
-- [Cộng đồng Telegram](https://telegram.servbay.dev)
-- [Cộng đồng WhatsApp](https://wa.servbay.dev)
-- [Cộng đồng WeChat](https://wechat-group.servbay.dev)
-- [Gửi sự cố](https://github.com/ServBay/ServBay/issues)
-
+-   [Trung tâm Trợ giúp](https://support.servbay.com)
+-   [Cộng đồng Discord](https://talk.servbay.com)
+-   [Cộng đồng Telegram](https://telegram.servbay.dev)
+-   [Cộng đồng WhatsApp](https://wa.servbay.dev)
+-   [Cộng đồng WeChat](https://wechat-group.servbay.dev)
+-   [Gửi vấn đề](https://github.com/ServBay/ServBay/issues)
 
 ## Cộng đồng
 
 Tham gia cộng đồng của chúng tôi để trao đổi kinh nghiệm với các nhà phát triển khác và nhận các bản cập nhật mới nhất:
 
-- [Blog ServBay](https://blog.servbay.com)
-- [Facebook](https://www.facebook.com/ServBay.Dev)
-- [Twitter](https://twitter.com/ServBayDev)
-- [YouTube](https://www.youtube.com/@ServBay)
-- [Weibo](https://weibo.com/ServBay)
-- [WeChat](https://mp.weixin.qq.com/s/CC9-1YagpZYmUxg01UJHTw)
+-   [Blog của ServBay](https://blog.servbay.com)
+-   [Facebook](https://www.facebook.com/ServBay.Dev)
+-   [Twitter (X)](https://twitter.com/ServBayDev)
+-   [YouTube](https://www.youtube.com/@ServBay)
+-   [Weibo](https://weibo.com/ServBay)
+-   [WeChat](https://mp.weixin.qq.com/s/CC9-1YagpZYmUxg01UJHTw)
+
 ---
 
-Cảm ơn bạn đã sử dụng ServBay! Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, vui lòng liên hệ với chúng tôi.
+Cảm ơn bạn đã sử dụng ServBay! Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, xin vui lòng liên hệ với chúng tôi.
