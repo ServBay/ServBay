@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ServBay for Windows
+    url: https://github.com/ServBay/ServBay-Windows-Release/issues
+    about: Submit an issue for ServBay for Windows. 
+contact_links:
+  - name: Support Center
+    url: https://support.servbay.com
+    about: Please refer to the technical support documentation. 
