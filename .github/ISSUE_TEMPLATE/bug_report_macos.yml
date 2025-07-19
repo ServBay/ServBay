@@ -86,6 +86,7 @@ body:
         - "13.x Ventura"
         - "12.x Monterey"
         - "Other"
+      default: 1
     validations:
       required: true
 
