@@ -1,0 +1,115 @@
+name: 🐞 Bug Report (macOS)
+description: Report something that is broken or not working correctly on macOS.
+title: "[BUG] "
+labels: ["bug", "macos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report. Please be as descriptive as possible.
+
+  - type: checkboxes
+    id: pre-submission-checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please ensure you have completed the following steps before submitting.
+      options:
+        - label: I have used the built-in [Troubleshoot feature](https://support.servbay.com/faq/troubleshooting) to check for common issues.
+          required: true
+        - label: I have checked the [Help Center Documentation](https://support.servbay.com/).
+          required: true
+        - label: I have searched the existing issues to prevent duplicates.
+          required: true
+        - label: I am using the [latest version of ServBay](https://www.servbay.com/download/).
+          required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: A clear and concise description of what actually happened.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Environment
+        Please provide the following details about your setup.
+
+  - type: input
+    id: servbay-version
+    attributes:
+      label: ServBay Version
+      placeholder: "e.g., 1.14.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: Please select your macOS version from the list.
+      options:
+        - "16.x Tahoe"
+        - "15.x Sequoia"
+        - "14.x Sonoma"
+        - "13.x Ventura"
+        - "12.x Monterey"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Chip
+      options:
+        - Apple Silicon
+        - Intel
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or Logs
+      description: |
+        If applicable, add screenshots or paste log files to help explain your problem.
+        - **Service Logs (Nginx, PHP, etc.)**: Found in `/Applications/ServBay/logs/`
+        - **Helper Log**: Run `tail -f /tmp/Dev.ServBay.macOS.ServBay.Helper.log` in Terminal.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.

@@ -1,0 +1,52 @@
+name: 📦 New Package Request (macOS)
+description: Request a new software package (e.g., PHP 9.0, Redis) to be added to ServBay for macOS.
+title: "[PKG] Add "
+labels: ["enhancement", "package-request", "macos"]
+body:
+  - type: checkboxes
+    id: pre-submission-checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched the existing issues to see if this package has already been requested.
+          required: true
+        - label: I have checked the [list of currently supported packages](https://www.servbay.com/packages).
+          required: true
+
+  - type: input
+    id: package-name
+    attributes:
+      label: Package Name
+      placeholder: "e.g., Redis"
+    validations:
+      required: true
+
+  - type: input
+    id: package-version
+    attributes:
+      label: Package Version
+      placeholder: "e.g., 7.2 or latest"
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Why is this package needed?
+      description: Please describe the use case. What kind of development work requires this package? Why would it be a valuable addition?
+    validations:
+      required: true
+
+  - type: input
+    id: package-website
+    attributes:
+      label: Link to the official package website
+      description: Please provide a link to the official homepage, documentation, or source repository.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Is there anything else we should know? For example, is it a popular tool in the community? Any specific compilation flags for macOS?
